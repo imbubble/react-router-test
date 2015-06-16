@@ -10,6 +10,10 @@ module.exports = {
         filename: 'test.js',
         publicPath: '/dist/'
     },
+    externals: {
+        react: 'var React',
+        'react-router': 'var ReactRouter'
+    },
     resolve: {
         extensions: ['', '.js', '.jsx']
     },

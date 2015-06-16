@@ -80,3 +80,4 @@ global.sinon = sinon;
 global.expect = chai.expect;
 global.TestUtils = TestUtils;
 global.React = React;
+global.ReactRouter = require('react-router');
